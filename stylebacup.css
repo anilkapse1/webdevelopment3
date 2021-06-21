@@ -1,0 +1,145 @@
+/*reset start*/
+body{
+font-family: 'Lato', sans-serif;
+margin:0;
+padding:0;
+font-size: 100%;
+background-color: #FFFFFF;
+color: #585553;
+overflow-x: hidden;
+}
+/*reset end*/
+
+/*sidenav code start*/
+.overlay {
+height: 100%;
+width: 100%;
+position: fixed;
+z-index: 1;
+top: 0;
+left: -100%;
+/*background-color: rgb(0,0,0);*/
+/*background-color: rgba(0,0,0, 0.9);*/
+overflow-x: hidden;
+transition: 0.5s;
+background-image: url('../images/2.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.overlay-content {
+position: relative;
+top: 50%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+.overlay a {
+padding: 8px;
+text-decoration: none;
+font-size: 18px;
+color: #818181;
+display: block;
+transition: 0.3s;
+text-transform: uppercase;
+}
+.overlay .overlay-content a:hover, .overlay .overlay-content a:focus {
+/*font-size: 20px;*/
+}
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+/*sidenav code end*/
+
+
+/*header start*/
+header{
+height: 156px;
+line-height: 9;
+}
+.header-middle{
+text-align: center;
+}
+.header-left{
+line-height: 156px;
+}
+.header-right{
+line-height: 156px;
+text-align: right;
+}
+.header-middle img{
+width: 300px;
+}
+.fa{
+margin: 0px 15px;
+font-size: 20px;
+}
+header a{
+  color: inherit;
+}
+header a:hover{
+  color:inherit;
+}
+/*header end*/
+
+/*slider start*/
+.slider{
+background: #f8f8f8;
+}
+.slider h1{
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 0.15em;
+margin:0;
+padding: 1.5em 0;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+}
+.slider .slider-for .images{
+max-width: 800px;
+height: 650px;
+overflow: hidden;
+margin-right: 1px;
+}
+.slider .slider-for .images img{
+height: 100%;
+}
+/*slider end*/
+
+
+/*footer start*/
+footer{
+background: #f8f8f8;
+letter-spacing: 2px;
+padding: 75px 0;
+}
+footer ul{
+list-style-type: none;
+}
+footer ul li{
+display: inline;
+padding-right: 5px;
+}
+footer a{
+color:inherit;
+}
+footer a:hover{
+text-decoration: none;
+color:inherit;
+}
+footer .header-middle{
+padding-top: 40px;
+}
+footer img{
+  width: 200px;
+}
+/*footer end*/
+
+
+/*media query start for tablet and desktop*/
+@media (min-width: 768px) {
+
+}
